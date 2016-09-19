@@ -18,5 +18,5 @@ function out(m : number) : void
     }
 }
 
-var m : number = 5;
+var m : number = process.argv[2];
 out(m); 

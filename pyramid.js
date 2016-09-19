@@ -12,5 +12,5 @@ function out(m) {
         console.log(a);
     }
 }
-var m = 5;
+var m = process.argv[2];
 out(m);

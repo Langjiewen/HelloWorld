@@ -1,1 +1,17 @@
-console.log("Hello,LangJiewen");
+function output(m) {
+    for (var i = 1; i <= m; i++) {
+        var a = "";
+        for (var j = 1; j <= m - i; j++) {
+            var space = " ";
+            a = a + space;
+        }
+        for (var k = 1; k <= 2 * i - 1; k++) {
+            var star = "*";
+            a = a + star;
+        }
+        console.log(a);
+    }
+}
+var s = process.argv[2];
+var m = parseInt(s);
+output(m);
